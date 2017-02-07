@@ -2,14 +2,16 @@ package pom.vlad.firstsoundcloud.models;
 
 
 public class User {
-    private int mId, mTrackCount, mPlaylistCount, mFollowersCount, mFollowingsCount, mPublicFavoritesCount;
 
+    private int
+            mId, mTrackCount, mPlaylistCount, mFollowersCount, mFollowingsCount, mPublicFavoritesCount;
 
     private String
             mPermaLink, mUsername, mCountry, mFullName, mCity, mDscription, mDiscogsName, mMyspaceName,
             mURI, mPermalinkUrl, mAvatarUrl, mWebsite, mWebsiteTitle;
 
     private boolean mOnline;
+
 
     public int getId() {
         return mId;
